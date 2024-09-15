@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
     --primary: #FF800F;
-    --secondary: #001064;
+    --secondary: #004864;
     --light: #F6F7F8;
-    --dark: #010A35;
+    --dark: #0a677e;
 }
 
 .back-to-top {
@@ -156,7 +156,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(1, 10, 53, .8);
+    background: rgba(2, 76, 105, 0.8);
     z-index: 1;
 }
 
