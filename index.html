@@ -389,35 +389,23 @@
                 <div class="col-lg-6 quote-form" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
                     <div class="h-100 px-4 px-sm-5 pe-lg-0 wow fadeIn" data-wow-delay="0.5s">
                         <div class="bg-white p-4 p-sm-5">
-                            <form>
+                            <form action="https://formspree.io/f/xovazgnn" method="POST">
                                 <div class="row g-3">
                                     <div class="col-sm-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="gname" placeholder="Guardian Name">
+                                            <input type="text" class="form-control" id="gname" name="guardian_name" placeholder="Guardian Name" required>
                                             <label for="gname">Name</label>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="gmail" placeholder="Guardian Email">
+                                            <input type="email" class="form-control" id="gmail" name="guardian_email" placeholder="Guardian Email" required>
                                             <label for="gmail">Email</label>
                                         </div>
                                     </div>
-                                    <!-- <div class="col-sm-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="cname" placeholder="Child Name">
-                                            <label for="cname">Child Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="cage" placeholder="Child Age">
-                                            <label for="cage">Child Age</label>
-                                        </div>
-                                    </div> -->
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 80px"></textarea>
+                                            <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 80px" required></textarea>
                                             <label for="message">Message</label>
                                         </div>
                                     </div>
@@ -426,6 +414,7 @@
                                     </div>
                                 </div>
                             </form>
+                            
                         </div>
                     </div>
                 </div>
